@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background-color: #1F2937;
+    padding: 10px;
+    height: 60px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /*We need this as the height 60px is on the navbar and not on the container inside hence align item : center dosent work */
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.header{
+    background-color: #1F2937;
+    min-height: 285px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container{
+    display: flex;
+    gap: 100px;
+    
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(107, 109, 110);
+    color: white;
+    border-radius: 5px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+button{
+    max-width: fit-content;
+    background-color: #3883F6;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    border: #3883F6;
+}
+
+.boxes .container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+
+}
+
+
+.box{
+    height: 100px;
+    padding: 10px;
+    min-width: 100px;
+    border: 2px solid #3883F6;
+    border-radius: 10px;
+    width: 150px;
+
+}
+
+.box-container{
+    display: flex;
+    gap: 20px;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+.template{
+    text-align: center;
+    max-width: fit-content;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+
+}
+.quote .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+}
+
+.quote .container div{
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.sign{
+    padding: 50px;
+
+}
+.sign .container{
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: white;
+}
+
+.sign-button{
+    border: 2px solid white;
+    min-width: 80px;
+}
+
+.footer{
+    background-color: #1F2937;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+}
